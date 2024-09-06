@@ -22,7 +22,7 @@ const data = [
 ];
 
 export default function Dashboard() {
-  const [userName] = useState("João");
+  const [userName] = useState("Neno");
 
   return (
     <div className="space-y-6 pt-16 md:pt-0">
