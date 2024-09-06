@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import {
   Menu,
-  X,
   Home,
   PieChart,
   CreditCard,
@@ -92,16 +91,6 @@ export default function Sidebar() {
           </Button>
         </SheetTrigger>
         <SheetContent side="left" className="w-[240px] sm:w-[300px]">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-lg font-semibold">Menu</h2>
-            <Button
-              variant="outline"
-              size="icon"
-              onClick={() => setOpen(false)}
-            >
-              <X className="h-4 w-4" />
-            </Button>
-          </div>
           <SidebarContent />
         </SheetContent>
       </Sheet>
